@@ -1,0 +1,120 @@
+body {
+    font-family: georgia, times, times new roman, serif;
+    color: black;
+    background-color: lightgray;
+    width:960px;
+    padding:20px;
+     }
+
+.header{    
+    background-color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    height: 77px;
+    text-align: center;
+    padding: 20px;
+    margin:5px;
+}
+
+.nav {
+        display: inline;
+        text-align: right;
+        margin-right: 12px;
+     }
+    
+#menu{
+        float: right
+    }  
+
+#me {
+    float:left;
+    color: white;
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 7px black;
+    width: 350px;
+    text-align: center;
+    padding: 25px;
+    } 
+
+h1, legend {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+p, ul, blockquote  {
+    font-size: 14px;
+    font-family: verdana;
+}   
+
+#figcap01 {
+    font-size: 9px;
+}
+
+#one {
+    float:left;
+    border-width: thick;
+    border-style: ridge;
+    border-color: teal;
+    padding: 10px;
+    Margin: 15px;
+    height: 198px;
+    width: 200px;
+    text-align:center;
+  }
+
+.content {
+    background-color:white;
+    width:960px;
+    padding:20px;
+    Margin: 5px;
+}
+
+.footer {
+    display: block;
+    background-color: gray;
+    color:white;
+    text-align: center;
+    height:30px;
+    width: 998px;
+    margin: 5px;
+    padding:1px;
+    border-top-color: teal;
+    border-width: thick;
+    border-top-style: solid;
+    }
+
+.wrapper {
+        width:800px;
+        padding: 20px;
+        height: 700px;
+        color: white;
+        display: block;
+        
+    }
+
+.horse {
+        width:220px;
+        float:left;
+        margin: 30px;
+        height: 198px;
+        z-index: 1;
+    }
+
+figure img {
+        width: 200px;
+        height: 150px;
+        border:1px solid black;
+    }
+    
+figurecaption {
+        display: block;
+        position: relative;
+        top: -50px;
+        background-color: teal;
+        text-align: center;
+        width: 192px;
+        height: 25px;
+        padding:5px;
+    }
+
