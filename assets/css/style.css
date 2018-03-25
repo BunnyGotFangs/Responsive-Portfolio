@@ -2,18 +2,19 @@ body {
     font-family: georgia, times, times new roman, serif;
     color: black;
     background-color: lightgray;
-    width:960px;
-    padding:20px;
-     }
+    max-width:960px;
+    margin: 0 auto;
+    padding: 20px;
+       }
 
 .header{    
     background-color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 960px;
+    max-width: 960px;
     height: 77px;
     text-align: center;
     padding: 20px;
-    margin:5px;
+    margin: 0 auto;
 }
 
 .nav {
@@ -65,9 +66,9 @@ p, ul, blockquote  {
 
 .content {
     background-color:white;
-    width:960px;
+    max-width:960px;
     padding:20px;
-    Margin: 5px;
+    Margin: 20px 0px 20px 0px ;
 }
 
 .footer {
@@ -76,16 +77,16 @@ p, ul, blockquote  {
     color:white;
     text-align: center;
     height:30px;
-    width: 998px;
-    margin: 5px;
-    padding:1px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding:5px;
     border-top-color: teal;
     border-width: thick;
     border-top-style: solid;
     }
 
 .wrapper {
-        width:800px;
+        max-width:800px;
         padding: 20px;
         height: 700px;
         color: white;
@@ -118,3 +119,60 @@ figurecaption {
         padding:5px;
     }
 
+    @media screen and (max-width: 960px) 
+    {
+        body 
+        {
+          background-color: #333;
+        }
+      
+       .wrapper2
+       {
+          width: 100%;
+          padding: 20px;
+       }  
+    }
+            
+    @media screen and (max-width: 768px) 
+    {
+        body 
+        {
+          background-color: #333;
+        }
+      
+        .wrapper2
+        
+        {        
+          width: 80%;
+          padding: 10px;
+        }  
+
+        #fs1, #fs2, #fs3 
+        {
+            width:80%;
+        }
+
+    }
+      
+        
+      
+    @media screen and (max-width: 640px) 
+    {
+        
+        body 
+        {
+          background-color: #333;
+        }
+      
+        .wrapper2
+        {
+          width: 60%;
+          padding: 5px;
+        }
+
+     #fs1, #fs2, #fs3 
+      {
+          width:60%;
+      }
+        
+    }
